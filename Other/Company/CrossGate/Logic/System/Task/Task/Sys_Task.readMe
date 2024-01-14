@@ -1,0 +1,211 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using System;
+
+public enum ETaskType
+{
+    Trunk, // 主线
+    Branch,  // 支线
+    Love, // 爱心任务
+}
+
+public enum ETaskStatus
+{
+    UnReceived,
+    UnReceivedButCanReceive,
+    UnFinish,
+    Finished,
+    Submited,
+}
+
+public enum ETaskGoalType
+{
+    None,
+    Dialogue,
+    KillMonster,
+    Collect,
+    Nest
+}
+
+// 任务表格
+public class CSVTaskLine
+{
+    // 目标     【命名规则前缀设计方便反射处理】
+    // 目标：杀敌
+    public List<int> goal_KillMonster;
+    // 目标：采集道具
+    public List<int> goal_CollectItem;
+    // 目标：完成其他任务
+    public List<int> goal_Nest;
+    // 目标：对话
+    public List<int> goal_Dialogue;
+
+    // 接受条件   【命名规则前缀设计方便反射处理】
+    // 接受条件：等级限制
+    public List<int> condition_Level;
+    // 接受条件：性别限制
+    public List<int> condition_Sex;
+    // 接受条件：职业限制
+    public List<int> condition_occupation;
+}
+
+#region 任务目标
+// 单个任务目标基类
+public abstract class TaskGoalBase
+{
+    // 进度
+    public float progress;
+    public bool isFinish { get { return progress >= 1f; } }
+
+    // 执行该任务目标
+    public virtual void Exec() { }
+}
+
+// 嵌套任务
+public class TaskGoalBase_Nest : TaskGoalBase { public List<TaskEntry> taskEntries; }
+public class TaskGoalBase_KillMonster : TaskGoalBase { }
+public class TaskGoalBase_CollectItem : TaskGoalBase { }
+public class TaskGoalBase_Dialogue : TaskGoalBase { public uint dialogueNpcId; }
+#endregion
+
+#region 任务接受条件
+// 单个任务条件基类  实现机制和triggercondition的一样
+public abstract class TaskConditionBase { }
+#endregion
+
+public class TaskEntry
+{
+    public uint id;
+    public CSVTaskLine csv;
+    public ETaskStatus taskStatus = ETaskStatus.UnReceived;
+
+    // 所有任务目标
+    public List<TaskGoalBase> taskGoals = new List<TaskGoalBase>();
+    // 所有限制接取任务的限制条件
+    public List<TaskConditionBase> taskConditions = new List<TaskConditionBase>();
+
+    // 所有任务目标的总进度
+    // public float totalProgress;
+    public bool isFinish { get {return taskStatus == ETaskStatus.Finished; } }
+
+    public void DoTask()
+    {
+        // 已完成怎么组织？ 一般是寻路去对话提交 任务
+        // 未完成怎么组织？ 一般是选择多个目标中按照顺序第一个未完成的目标然后开始执行
+    }
+    public void SetData(/*var serverData*/)
+    {
+        // 刷新各个目标的进度以及总进度以及任务状态
+    }
+    public bool CanReceive() { /*taskConditions 条件槽全部满足即可*/ return true; }
+}
+
+[SystemRegisterAttribute()]
+public class Sys_Task : SystemBase<Sys_Task>
+{
+    // ETaskType : dict
+    public Dictionary<int, Dictionary<uint, TaskEntry>> allTasks = new Dictionary<int, Dictionary<uint, TaskEntry>>();
+    public TaskEntry GetTask(uint id)
+    {
+        return null;
+    }
+
+    // 点击任务栏，执行任务组织以及任务执行
+    public void DoTask(uint taskId) { }
+    public void DoTask(TaskEntry taskEntry) { taskEntry?.DoTask(); }
+
+    #region 系统函数
+    public override void OnInit()
+    {
+        GetAllReceiver();
+    }
+    #endregion
+
+    #region 网络
+    public void ReqReceive(uint id) { }
+    private void OnReceived(uint id) { }
+
+    private void OnAllRefreshed() { }
+    private void OnRefresheded()
+    {
+       // taskEntry.SetData();
+    }
+
+    // 两者回包都是 OnRefresheded
+    public void ReqFinishTask(uint id) { }
+    public void ReqFinishTaskStep(uint id, int goalIndex) { }
+
+    public void ReqSubmit(uint id) { }
+    private void OnSubmited(uint id) { }
+
+    public void ReqTrace(uint id, bool toTrace) { }
+    private void OnTraced(uint id)
+    {
+        // 因为追踪上限的关系，所以在请求追踪一个任务的时候可能引起另外一个任务被取消追踪，这是
+        // server需要处理然后告知client
+    }
+    #endregion
+
+    #region 事件
+    public enum EEvents
+    {
+        OnAllReceived, // 登陆全量刷新
+        OnRefreshed,   // 增量刷新
+        OnReceived,    // 新接任务
+        OnFinished,    // 完成任务【客户端自己根据数据判定 或者比如对话这种主动请求server完成】
+        OnSubmited,    // 提交任务
+        OnTraced,      // 追踪任务
+    }
+    #endregion
+
+    #region 回调Receiver
+    private Dictionary<int, TaskReceiver> taskExecs = new Dictionary<int, TaskReceiver>();
+    public void GetAllReceiver()
+    {
+        taskExecs.Clear();
+        List<ValueTuple<Type, TaskReceiverAttribute>> tuples = T_Reflection.GetAllAttributeType<TaskReceiverAttribute>(false);
+        foreach (var tp in tuples)
+        {
+            taskExecs.Add((int)tp.Item2.execType, Activator.CreateInstance(tp.Item1) as TaskReceiver);
+        }
+        //foreach (var kvp in taskExecs)
+        //{
+        //    kvp.Value.Exec();
+        //}
+    }
+    #endregion
+}
+
+#region 回调Receiver
+public abstract class TaskReceiver
+{
+    public virtual void Exec(params int[] args) { }
+}
+public class TaskReceiverAttribute : Attribute
+{
+    public ETaskGoalType execType;
+
+    public TaskReceiverAttribute(ETaskGoalType execType)
+    {
+        this.execType = execType;
+    }
+}
+
+[TaskReceiver(ETaskGoalType.Dialogue)]
+public class TaskCallbackReceiver_FindPath : TaskReceiver
+{
+    public override void Exec(params int[] args)
+    {
+        UnityEngine.Debug.LogError("TaskCallbackReceiver_FindPath");
+    }
+}
+
+[TaskReceiver(ETaskGoalType.None)]
+public class TaskCallbackReceiver_None : TaskReceiver
+{
+    public override void Exec(params int[] args)
+    {
+        UnityEngine.Debug.LogError("None");
+    }
+}
+#endregion
