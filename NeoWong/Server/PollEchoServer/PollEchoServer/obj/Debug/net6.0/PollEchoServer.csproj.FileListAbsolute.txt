@@ -1,0 +1,14 @@
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\bin\Debug\net6.0\PollEchoServer.exe
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\bin\Debug\net6.0\PollEchoServer.deps.json
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\bin\Debug\net6.0\PollEchoServer.runtimeconfig.json
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\bin\Debug\net6.0\PollEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\bin\Debug\net6.0\PollEchoServer.pdb
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\PollEchoServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\PollEchoServer.AssemblyInfoInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\PollEchoServer.AssemblyInfo.cs
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\PollEchoServer.csproj.CoreCompileInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\PollEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\refint\PollEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\PollEchoServer.pdb
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\PollEchoServer.genruntimeconfig.cache
+F:\WorkSpace\Git\NeoWong\Server\PollEchoServer\PollEchoServer\obj\Debug\net6.0\ref\PollEchoServer.dll

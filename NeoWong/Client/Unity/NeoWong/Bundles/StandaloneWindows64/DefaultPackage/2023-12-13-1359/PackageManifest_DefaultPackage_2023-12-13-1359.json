@@ -1,0 +1,658 @@
+{
+    "FileVersion": "1.5.2",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 4,
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2023-12-13-1359",
+    "AssetList": [
+        {
+            "Address": "blue_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/blue_button.png",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "red_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/red_button.png",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "white_background",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/white_background.png",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "white_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/white_button.png",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "02_Heal_02",
+            "AssetPath": "Assets/AssetRaw/Audios/02_Heal_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "03_Claw_03",
+            "AssetPath": "Assets/AssetRaw/Audios/03_Claw_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "03_Step_grass_03",
+            "AssetPath": "Assets/AssetRaw/Audios/03_Step_grass_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "04_Fire_explosion_04_medium",
+            "AssetPath": "Assets/AssetRaw/Audios/04_Fire_explosion_04_medium.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "08_Bite_04",
+            "AssetPath": "Assets/AssetRaw/Audios/08_Bite_04.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "08_Step_rock_02",
+            "AssetPath": "Assets/AssetRaw/Audios/08_Step_rock_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "12_Step_wood_03",
+            "AssetPath": "Assets/AssetRaw/Audios/12_Step_wood_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "13_Ice_explosion_01",
+            "AssetPath": "Assets/AssetRaw/Audios/13_Ice_explosion_01.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "14_Step_water_02",
+            "AssetPath": "Assets/AssetRaw/Audios/14_Step_water_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "15_Impact_flesh_02",
+            "AssetPath": "Assets/AssetRaw/Audios/15_Impact_flesh_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "16_Atk_buff_04",
+            "AssetPath": "Assets/AssetRaw/Audios/16_Atk_buff_04.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "17_Def_buff_01",
+            "AssetPath": "Assets/AssetRaw/Audios/17_Def_buff_01.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "18_Thunder_02",
+            "AssetPath": "Assets/AssetRaw/Audios/18_Thunder_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "21_Debuff_01",
+            "AssetPath": "Assets/AssetRaw/Audios/21_Debuff_01.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "22_Slash_04",
+            "AssetPath": "Assets/AssetRaw/Audios/22_Slash_04.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "22_Water_02",
+            "AssetPath": "Assets/AssetRaw/Audios/22_Water_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "25_Wind_01",
+            "AssetPath": "Assets/AssetRaw/Audios/25_Wind_01.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "26_Swim_Submerged_02",
+            "AssetPath": "Assets/AssetRaw/Audios/26_Swim_Submerged_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "30_Earth_02",
+            "AssetPath": "Assets/AssetRaw/Audios/30_Earth_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "30_Jump_03",
+            "AssetPath": "Assets/AssetRaw/Audios/30_Jump_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "30_Revive_03",
+            "AssetPath": "Assets/AssetRaw/Audios/30_Revive_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "35_Miss_Evade_02",
+            "AssetPath": "Assets/AssetRaw/Audios/35_Miss_Evade_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "39_Absorb_04",
+            "AssetPath": "Assets/AssetRaw/Audios/39_Absorb_04.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "39_Block_03",
+            "AssetPath": "Assets/AssetRaw/Audios/39_Block_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "42_Cling_climb_03",
+            "AssetPath": "Assets/AssetRaw/Audios/42_Cling_climb_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "44_Sleep_01",
+            "AssetPath": "Assets/AssetRaw/Audios/44_Sleep_01.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "45_Charge_05",
+            "AssetPath": "Assets/AssetRaw/Audios/45_Charge_05.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "45_Landing_01",
+            "AssetPath": "Assets/AssetRaw/Audios/45_Landing_01.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "46_Poison_01",
+            "AssetPath": "Assets/AssetRaw/Audios/46_Poison_01.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "48_Speed_up_02",
+            "AssetPath": "Assets/AssetRaw/Audios/48_Speed_up_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "51_Flee_02",
+            "AssetPath": "Assets/AssetRaw/Audios/51_Flee_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "52_Dive_02",
+            "AssetPath": "Assets/AssetRaw/Audios/52_Dive_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "55_Encounter_02",
+            "AssetPath": "Assets/AssetRaw/Audios/55_Encounter_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "56_Attack_03",
+            "AssetPath": "Assets/AssetRaw/Audios/56_Attack_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "61_Hit_03",
+            "AssetPath": "Assets/AssetRaw/Audios/61_Hit_03.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "69_Enemy_death_01",
+            "AssetPath": "Assets/AssetRaw/Audios/69_Enemy_death_01.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "77_flesh_02",
+            "AssetPath": "Assets/AssetRaw/Audios/77_flesh_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "88_Teleport_02",
+            "AssetPath": "Assets/AssetRaw/Audios/88_Teleport_02.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "BGM01hero",
+            "AssetPath": "Assets/AssetRaw/Audios/BGM01hero.wav",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "tbmusic",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbmusic.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Configs"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "tbscene",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbscene.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Configs"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "tbsound",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbsound.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Configs"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "tbuiform",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbuiform.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Configs"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "tbuisound",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbuisound.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Configs"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "need_cache_list",
+            "AssetPath": "Assets/AssetRaw/Configs/need_cache_list.json",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Configs"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "Google.Protobuf.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/Google.Protobuf.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "HotFix.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/HotFix.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "mscorlib.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/mscorlib.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "NWFramework.Runtime.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/NWFramework.Runtime.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "System.Core.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/System.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "System.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/System.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "UniTask.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/UniTask.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "UnityEngine.CoreModule.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/UnityEngine.CoreModule.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "YooAsset.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/YooAsset.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [
+                "DLL"
+            ],
+            "BundleID": 4,
+            "DependIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_assetraw_uiraw_atlas_common.bundle",
+            "UnityCRC": 1828146135,
+            "FileHash": "cea2abec1d59df1306b1571ee1bb8459",
+            "FileCRC": "753d9aad",
+            "FileSize": 26481,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "UIRaw"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_audios.bundle",
+            "UnityCRC": 3421448813,
+            "FileHash": "97b8f75cf0729d5121fe6c22fcc781a0",
+            "FileCRC": "38219bb9",
+            "FileSize": 5878707,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Audios"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_configs_bytes.bundle",
+            "UnityCRC": 2922071315,
+            "FileHash": "7c265cf62c37b690e6d9997f5249e6cf",
+            "FileCRC": "93c02344",
+            "FileSize": 1490,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Configs"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_configs.bundle",
+            "UnityCRC": 3451821179,
+            "FileHash": "4a34321e08e86fcf3e0c62608b24df05",
+            "FileCRC": "415fdb70",
+            "FileSize": 1330,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Configs"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_dll.bundle",
+            "UnityCRC": 1212256031,
+            "FileHash": "36dca3114c51e0f267def55a3dc609b1",
+            "FileCRC": "7eed736d",
+            "FileSize": 2860526,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "DLL"
+            ],
+            "ReferenceIDs": []
+        }
+    ]
+}

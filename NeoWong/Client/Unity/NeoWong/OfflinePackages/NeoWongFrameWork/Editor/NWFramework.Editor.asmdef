@@ -1,0 +1,21 @@
+{
+    "name": "NWFramework.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:488288992a7d93e43a5a5125791d702a",
+        "GUID:e34a5702dd353724aa315fb8011f08c3",
+        "GUID:4d1926c9df5b052469a1c63448b7609a",
+        "GUID:2373f786d14518f44b0f475db77ba4de"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

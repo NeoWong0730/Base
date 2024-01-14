@@ -1,0 +1,343 @@
+{
+    "Summary": {
+        "YooVersion": "1.5.7",
+        "UnityVersion": "2022.3.8f1c1",
+        "BuildDate": "2023/12/12 19:31:14",
+        "BuildSeconds": 1,
+        "BuildTarget": 19,
+        "BuildPipeline": 1,
+        "BuildMode": 1,
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2023-12-12-1171",
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "UniqueBundleName": false,
+        "SharedPackRuleClassName": "YooAsset.Editor.ZeroRedundancySharedPackRule",
+        "EncryptionServicesClassName": "YooAsset.Editor.EncryptionNone",
+        "OutputNameStyle": 4,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 19,
+        "MainAssetTotalCount": 19,
+        "AllBundleTotalCount": 4,
+        "AllBundleTotalSize": 2880409,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0,
+        "RawBundleTotalCount": 0,
+        "RawBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "blue_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/blue_button.png",
+            "AssetGUID": "f9a06e163014f4f46b14f4499d3e7240",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "MainBundleName": "assets_assetraw_uiraw_atlas_common.bundle",
+            "MainBundleSize": 26481,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "red_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/red_button.png",
+            "AssetGUID": "2761fc23b4aa7e34187ac5ffbc3fad9b",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "MainBundleName": "assets_assetraw_uiraw_atlas_common.bundle",
+            "MainBundleSize": 26481,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "white_background",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/white_background.png",
+            "AssetGUID": "d623a2b7e069a4c4592d3da48f476189",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "MainBundleName": "assets_assetraw_uiraw_atlas_common.bundle",
+            "MainBundleSize": 26481,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "white_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/white_button.png",
+            "AssetGUID": "57e4117f4cd6ae54284898652e70d553",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "MainBundleName": "assets_assetraw_uiraw_atlas_common.bundle",
+            "MainBundleSize": 26481,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "tbmusic",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbmusic.bytes",
+            "AssetGUID": "64ae50c6fba91484e8bea48c4d08c82b",
+            "AssetTags": [
+                "Configs"
+            ],
+            "MainBundleName": "assets_assetraw_configs_bytes.bundle",
+            "MainBundleSize": 1490,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "tbscene",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbscene.bytes",
+            "AssetGUID": "2899c2485f805964db5ebce27a2602b7",
+            "AssetTags": [
+                "Configs"
+            ],
+            "MainBundleName": "assets_assetraw_configs_bytes.bundle",
+            "MainBundleSize": 1490,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "tbsound",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbsound.bytes",
+            "AssetGUID": "008126dd953f5a149b983947855c33df",
+            "AssetTags": [
+                "Configs"
+            ],
+            "MainBundleName": "assets_assetraw_configs_bytes.bundle",
+            "MainBundleSize": 1490,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "tbuiform",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbuiform.bytes",
+            "AssetGUID": "dcfbf59ed97b66644be19dcff7a050be",
+            "AssetTags": [
+                "Configs"
+            ],
+            "MainBundleName": "assets_assetraw_configs_bytes.bundle",
+            "MainBundleSize": 1490,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "tbuisound",
+            "AssetPath": "Assets/AssetRaw/Configs/bytes/tbuisound.bytes",
+            "AssetGUID": "f4400a7c22bea1146ba340151c437db9",
+            "AssetTags": [
+                "Configs"
+            ],
+            "MainBundleName": "assets_assetraw_configs_bytes.bundle",
+            "MainBundleSize": 1490,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "need_cache_list",
+            "AssetPath": "Assets/AssetRaw/Configs/need_cache_list.json",
+            "AssetGUID": "cf59a67faaa391f4e9c432a19165dc45",
+            "AssetTags": [
+                "Configs"
+            ],
+            "MainBundleName": "assets_assetraw_configs.bundle",
+            "MainBundleSize": 1330,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "Google.Protobuf.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/Google.Protobuf.dll.bytes",
+            "AssetGUID": "7ba2292abe1519b4c852728c64828820",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "HotFix.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/HotFix.dll.bytes",
+            "AssetGUID": "2b7b563bbd8e7db4fb8319b84bd2b412",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "mscorlib.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/mscorlib.dll.bytes",
+            "AssetGUID": "fdc5c72acc5487547bca1fddfa3c03a9",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "NWFramework.Runtime.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/NWFramework.Runtime.dll.bytes",
+            "AssetGUID": "8a6e413d838e06644bf9258753fc2c68",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "System.Core.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/System.Core.dll.bytes",
+            "AssetGUID": "17027202bc4d3d14ca3ea21b82a513a4",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "System.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/System.dll.bytes",
+            "AssetGUID": "21f82178a17bd144cba983b206cb3f57",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "UniTask.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/UniTask.dll.bytes",
+            "AssetGUID": "99f9258936b699e4cab19c5cc0d78215",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "UnityEngine.CoreModule.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/UnityEngine.CoreModule.dll.bytes",
+            "AssetGUID": "f8a0a27748dadba49b166a05bd0225da",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "YooAsset.dll",
+            "AssetPath": "Assets/AssetRaw/DLL/YooAsset.dll.bytes",
+            "AssetGUID": "a171a0325ca293f468d63e982399d11e",
+            "AssetTags": [
+                "DLL"
+            ],
+            "MainBundleName": "assets_assetraw_dll.bundle",
+            "MainBundleSize": 2851108,
+            "DependBundles": [],
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_assetraw_uiraw_atlas_common.bundle",
+            "FileName": "assets_assetraw_uiraw_atlas_common_cea2abec1d59df1306b1571ee1bb8459.bundle",
+            "FileHash": "cea2abec1d59df1306b1571ee1bb8459",
+            "FileCRC": "753d9aad",
+            "FileSize": 26481,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "UIRaw"
+            ],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AssetRaw/UIRaw/Atlas/Common/blue_button.png",
+                "Assets/AssetRaw/UIRaw/Atlas/Common/red_button.png",
+                "Assets/AssetRaw/UIRaw/Atlas/Common/white_background.png",
+                "Assets/AssetRaw/UIRaw/Atlas/Common/white_button.png"
+            ]
+        },
+        {
+            "BundleName": "assets_assetraw_configs_bytes.bundle",
+            "FileName": "assets_assetraw_configs_bytes_7c265cf62c37b690e6d9997f5249e6cf.bundle",
+            "FileHash": "7c265cf62c37b690e6d9997f5249e6cf",
+            "FileCRC": "93c02344",
+            "FileSize": 1490,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Configs"
+            ],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AssetRaw/Configs/bytes/tbmusic.bytes",
+                "Assets/AssetRaw/Configs/bytes/tbscene.bytes",
+                "Assets/AssetRaw/Configs/bytes/tbsound.bytes",
+                "Assets/AssetRaw/Configs/bytes/tbuiform.bytes",
+                "Assets/AssetRaw/Configs/bytes/tbuisound.bytes"
+            ]
+        },
+        {
+            "BundleName": "assets_assetraw_configs.bundle",
+            "FileName": "assets_assetraw_configs_4a34321e08e86fcf3e0c62608b24df05.bundle",
+            "FileHash": "4a34321e08e86fcf3e0c62608b24df05",
+            "FileCRC": "415fdb70",
+            "FileSize": 1330,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Configs"
+            ],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AssetRaw/Configs/need_cache_list.json"
+            ]
+        },
+        {
+            "BundleName": "assets_assetraw_dll.bundle",
+            "FileName": "assets_assetraw_dll_8feb39e5776c26155fc482fc103b70ab.bundle",
+            "FileHash": "8feb39e5776c26155fc482fc103b70ab",
+            "FileCRC": "323945f1",
+            "FileSize": 2851108,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "DLL"
+            ],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AssetRaw/DLL/Google.Protobuf.dll.bytes",
+                "Assets/AssetRaw/DLL/HotFix.dll.bytes",
+                "Assets/AssetRaw/DLL/mscorlib.dll.bytes",
+                "Assets/AssetRaw/DLL/NWFramework.Runtime.dll.bytes",
+                "Assets/AssetRaw/DLL/System.Core.dll.bytes",
+                "Assets/AssetRaw/DLL/System.dll.bytes",
+                "Assets/AssetRaw/DLL/UniTask.dll.bytes",
+                "Assets/AssetRaw/DLL/UnityEngine.CoreModule.dll.bytes",
+                "Assets/AssetRaw/DLL/YooAsset.dll.bytes"
+            ]
+        }
+    ],
+    "RedundancyInfos": []
+}

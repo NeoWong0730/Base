@@ -1,0 +1,5 @@
+F:\WorkSpace\Git\NeoWong\Server\SimpleServer\SimpleServer\obj\Debug\net5.0\SimpleServer.csproj.AssemblyReference.cache
+F:\WorkSpace\Git\NeoWong\Server\SimpleServer\SimpleServer\obj\Debug\net5.0\SimpleServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\WorkSpace\Git\NeoWong\Server\SimpleServer\SimpleServer\obj\Debug\net5.0\SimpleServer.AssemblyInfoInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\SimpleServer\SimpleServer\obj\Debug\net5.0\SimpleServer.AssemblyInfo.cs
+F:\WorkSpace\Git\NeoWong\Server\SimpleServer\SimpleServer\obj\Debug\net5.0\SimpleServer.csproj.CoreCompileInputs.cache

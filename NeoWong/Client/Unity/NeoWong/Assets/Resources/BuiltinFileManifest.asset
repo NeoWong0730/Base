@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b9b7d8cb895054fa993a58e0b876b0, type: 3}
+  m_Name: BuiltinFileManifest
+  m_EditorClassIdentifier: 
+  internalGameVersion: 2023-12-17-25
+  builtinFiles:
+  - assets_assetraw_uiraw_atlas_common_cea2abec1d59df1306b1571ee1bb8459.bundle

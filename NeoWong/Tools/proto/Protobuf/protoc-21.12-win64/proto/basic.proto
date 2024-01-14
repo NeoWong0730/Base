@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package Proto.Basic;
+
+message Vector3
+{
+	int32 x = 1;
+	int32 y = 2;
+	int32 z = 3;
+}
+
+message Entity
+{
+	uint64 uid = 1;
+	Vector3 position = 2;
+	Vector3 direction = 3;
+	Vector3 scale = 4;
+}
+
+message HeartBeatRequest
+{
+
+}
+
+message HeartBeatResponse
+{
+
+}
+

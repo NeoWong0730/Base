@@ -1,0 +1,14 @@
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\bin\Debug\net6.0\EchoServer.exe
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\bin\Debug\net6.0\EchoServer.deps.json
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\bin\Debug\net6.0\EchoServer.runtimeconfig.json
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\bin\Debug\net6.0\EchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\bin\Debug\net6.0\EchoServer.pdb
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\EchoServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\EchoServer.AssemblyInfoInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\EchoServer.AssemblyInfo.cs
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\EchoServer.csproj.CoreCompileInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\EchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\refint\EchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\EchoServer.pdb
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\EchoServer.genruntimeconfig.cache
+F:\WorkSpace\Git\NeoWong\Server\EchoServer\EchoServer\obj\Debug\net6.0\ref\EchoServer.dll

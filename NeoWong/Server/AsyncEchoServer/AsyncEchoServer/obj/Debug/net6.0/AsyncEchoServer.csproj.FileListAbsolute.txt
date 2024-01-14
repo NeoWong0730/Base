@@ -1,0 +1,14 @@
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\bin\Debug\net6.0\AsyncEchoServer.exe
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\bin\Debug\net6.0\AsyncEchoServer.deps.json
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\bin\Debug\net6.0\AsyncEchoServer.runtimeconfig.json
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\bin\Debug\net6.0\AsyncEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\bin\Debug\net6.0\AsyncEchoServer.pdb
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\AsyncEchoServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\AsyncEchoServer.AssemblyInfoInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\AsyncEchoServer.AssemblyInfo.cs
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\AsyncEchoServer.csproj.CoreCompileInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\AsyncEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\refint\AsyncEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\AsyncEchoServer.pdb
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\AsyncEchoServer.genruntimeconfig.cache
+F:\WorkSpace\Git\NeoWong\Server\AsyncEchoServer\AsyncEchoServer\obj\Debug\net6.0\ref\AsyncEchoServer.dll

@@ -1,0 +1,62 @@
+2023-12-23 15:34:46.924 +08:00 [INF] Start listening port：8888
+2023-12-23 15:34:46.932 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.932 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.932 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.939 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.939 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.939 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.942 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.945 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.950 +08:00 [INF] Worker thread start
+2023-12-23 15:34:46.950 +08:00 [INF] Worker thread start
+2023-12-23 15:34:47.047 +08:00 [DBG] Proto.Basic.HeartBeatRequest:1
+2023-12-23 15:34:47.047 +08:00 [DBG] NetService start success
+2023-12-23 15:34:47.049 +08:00 [DBG] Proto.User.UserRegisterRequest:1
+2023-12-23 15:34:47.049 +08:00 [DBG] Proto.User.UserLoginRequest:1
+2023-12-23 15:34:47.049 +08:00 [DBG] UserService start success
+2023-12-23 15:35:00.259 +08:00 [INF] Client connected: 127.0.0.1
+2023-12-23 15:35:01.346 +08:00 [DBG] Proto type add：0 - Proto.Basic.Entity
+2023-12-23 15:35:01.348 +08:00 [DBG] Proto type add：1 - Proto.Basic.Vector3
+2023-12-23 15:35:01.348 +08:00 [DBG] Proto type add：2 - Proto.User.UserLoginRequest
+2023-12-23 15:35:01.348 +08:00 [DBG] Proto type add：3 - Proto.Basic.HeartBeatRequest
+2023-12-23 15:35:01.348 +08:00 [DBG] Proto type add：4 - Proto.User.UserLoginResponse
+2023-12-23 15:35:01.348 +08:00 [DBG] Proto type add：5 - Proto.Basic.HeartBeatResponse
+2023-12-23 15:35:01.348 +08:00 [DBG] Proto type add：6 - Proto.User.UserRegisterRequest
+2023-12-23 15:35:01.348 +08:00 [DBG] Proto type add：7 - Proto.User.UserRegisterResponse
+2023-12-23 15:35:04.918 +08:00 [INF] Parse message：code=2 - { "username": "huang", "password": "12345" }
+2023-12-23 16:19:38.835 +08:00 [INF] Client connected: 127.0.0.1
+2023-12-23 16:20:11.817 +08:00 [INF] Start listening port：8888
+2023-12-23 16:20:11.827 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.827 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.828 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.836 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.837 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.841 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.848 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.852 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.858 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.859 +08:00 [INF] Worker thread start
+2023-12-23 16:20:11.946 +08:00 [DBG] Proto.Basic.HeartBeatRequest:1
+2023-12-23 16:20:11.946 +08:00 [DBG] NetService start success
+2023-12-23 16:20:11.949 +08:00 [DBG] Proto.User.UserRegisterRequest:1
+2023-12-23 16:20:11.949 +08:00 [DBG] Proto.User.UserLoginRequest:1
+2023-12-23 16:20:11.949 +08:00 [DBG] UserService start success
+2023-12-23 16:20:24.380 +08:00 [INF] Client connected: 127.0.0.1
+2023-12-23 16:30:28.269 +08:00 [INF] Start listening port：8888
+2023-12-23 16:30:28.278 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.278 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.280 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.290 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.290 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.293 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.296 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.296 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.296 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.296 +08:00 [INF] Worker thread start
+2023-12-23 16:30:28.413 +08:00 [DBG] Proto.Basic.HeartBeatRequest:1
+2023-12-23 16:30:28.413 +08:00 [DBG] NetService start success
+2023-12-23 16:30:28.415 +08:00 [DBG] Proto.User.UserRegisterRequest:1
+2023-12-23 16:30:28.415 +08:00 [DBG] Proto.User.UserLoginRequest:1
+2023-12-23 16:30:28.415 +08:00 [DBG] UserService start success
+2023-12-23 16:30:32.809 +08:00 [INF] Client connected: 127.0.0.1
+2023-12-23 16:30:52.544 +08:00 [INF] Client connected: 127.0.0.1

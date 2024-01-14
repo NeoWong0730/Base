@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package Proto.User;
+
+enum UserCode
+{
+	SUCCESS = 0;
+	USERNAMEINVALID = 1;
+	PASSWORDINVALID = 2;
+	USERNAMEERROR = 3;
+	PASSWORDERROR = 4;
+	USERNAMEEXISTED = 5;
+}
+
+message UserRegisterRequest
+{
+	string username = 1;
+	string password = 2;
+}
+
+message UserRegisterResponse
+{
+	UserCode code = 1;
+	string message = 2;
+}
+
+message UserLoginRequest
+{
+	string username = 1;
+	string password = 2;
+}
+
+message UserLoginResponse
+{
+	UserCode code = 1;
+	string message = 2;
+}

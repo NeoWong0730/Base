@@ -1,0 +1,14 @@
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\bin\Debug\net6.0\SelectEchoServer.exe
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\bin\Debug\net6.0\SelectEchoServer.deps.json
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\bin\Debug\net6.0\SelectEchoServer.runtimeconfig.json
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\bin\Debug\net6.0\SelectEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\bin\Debug\net6.0\SelectEchoServer.pdb
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\SelectEchoServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\SelectEchoServer.AssemblyInfoInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\SelectEchoServer.AssemblyInfo.cs
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\SelectEchoServer.csproj.CoreCompileInputs.cache
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\SelectEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\refint\SelectEchoServer.dll
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\SelectEchoServer.pdb
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\SelectEchoServer.genruntimeconfig.cache
+F:\WorkSpace\Git\NeoWong\Server\SelectEchoServer\SelectEchoServer\obj\Debug\net6.0\ref\SelectEchoServer.dll

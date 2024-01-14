@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root Version="2.4">
+  <Common AutoAddressable="True" LocationToLower="False" IncludeAssetGUID="False" UniqueBundleName="False" ShowPackageView="False" ShowEditorAlias="False" />
+  <Package PackageName="DefaultPackage" PackageDesc="默认资源包">
+    <Group GroupActiveRule="EnableGroup" GroupName="Actor" GroupDesc="角色" AssetTags="Actor">
+      <Collector CollectPath="Assets/AssetRaw/Actor" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="UIRaw" GroupDesc="图片资源" AssetTags="UIRaw">
+      <Collector CollectPath="Assets/AssetRaw/UIRaw/Atlas" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+      <Collector CollectPath="Assets/AssetRaw/UIRaw/Raw" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Audios" GroupDesc="音频" AssetTags="Audios">
+      <Collector CollectPath="Assets/AssetRaw/Audios" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Configs" GroupDesc="配置表" AssetTags="Configs">
+      <Collector CollectPath="Assets/AssetRaw/Configs" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="DLL" GroupDesc="代码" AssetTags="DLL">
+      <Collector CollectPath="Assets/AssetRaw/DLL" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Effects" GroupDesc="特效" AssetTags="Effects">
+      <Collector CollectPath="Assets/AssetRaw/Effects" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Materials" GroupDesc="材质球" AssetTags="Materials">
+      <Collector CollectPath="Assets/AssetRaw/Materials" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Scenes" GroupDesc="场景" AssetTags="Scenes">
+      <Collector CollectPath="Assets/AssetRaw/Scenes" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackSeparately" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Shaders" GroupDesc="着色器" AssetTags="Shaders">
+      <Collector CollectPath="Assets/AssetRaw/Shaders" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackShaderVariants" FilterRule="CollectShaderVariants" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="UI" GroupDesc="UI面板" AssetTags="UI">
+      <Collector CollectPath="Assets/AssetRaw/UI" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackSeparately" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Fonts" GroupDesc="字体" AssetTags="Fonts">
+      <Collector CollectPath="Assets/AssetRaw/Fonts" CollectGUID="" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+  </Package>
+</root>

@@ -1,0 +1,14 @@
+{
+  "name": "com.neowong.framework",
+  "version": "1.0.0",
+  "displayName": "NeoWongFramework",
+  "description": "NeoWongFramework.",
+  "category": "Runtime",
+  "keywords": [
+    "neowong",
+    "framework"
+  ],
+  "author": {
+    "name": "NeoWong"
+  }
+}
