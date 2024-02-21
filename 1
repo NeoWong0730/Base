@@ -1,0 +1,21 @@
+#!/bin/sh
+ #遍历所有的proto源文件
+for file in *.proto
+do
+    arr=(${arr[*]} $file)
+   #每一个proto文件执行一次
+   protoc —swift_out=. $file
+done
+#输出遍历结果
+echo  ${arr[@]}
+
+for pbfile in *.pb.swift
+do
+    pbArr=(${pbArr[*]} $pbfile)
+done
+#输出转换结果 
+echo ${pbArr[@]}
+
+#将转换后的文件移动到新文件夹
+mkdir pb_file
+mv -f -v *.pb.swift pb_file
